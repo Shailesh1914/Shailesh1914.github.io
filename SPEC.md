@@ -4,7 +4,7 @@ Source documents: `shaileshsrivastava_Resume.pdf`, `projects.md`
 
 ## About
 
-Shailesh Srivastava is an Agile Project and Program Management professional. This is my first website (exited to share) and is made using claude code. Used words and sentences to make this site. 
+Shailesh Srivastava is an Agile Project and Program Management professional. This is my first website (excited to share) and is made using claude code. Used words and sentences to make this site. 
 This website is exclusively for my internal learning purpose. 
 
 ## Projects
