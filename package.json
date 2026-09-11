@@ -1,0 +1,17 @@
+{
+  "name": "shailesh1914-github-io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Test tooling for shailesh1914.github.io, checked against SPEC.md's Acceptance criteria",
+  "scripts": {
+    "test:html": "html-validate index.html",
+    "test:links": "linkinator https://shailesh1914.github.io --recurse",
+    "test:a11y": "CHROME_PATH=$(which chromium) lighthouse https://shailesh1914.github.io --chrome-flags=\"--headless --no-sandbox --disable-gpu\" --only-categories=accessibility,performance --output=json --output-path=./lighthouse-report.json --quiet",
+    "test": "npm run test:html && npm run test:links && npm run test:a11y"
+  },
+  "devDependencies": {
+    "html-validate": "^8.24.0",
+    "linkinator": "^6.0.4",
+    "lighthouse": "^12.2.1"
+  }
+}
