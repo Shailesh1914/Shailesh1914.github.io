@@ -4,9 +4,8 @@ Source documents: `shaileshsrivastava_Resume.pdf`, `projects.md`
 
 ## About
 
-Shailesh Srivastava is an Agile Project and Program Management professional with 25+ years of experience across software product development, industrial automation engineering, and digitalization initiatives. 
-He currently works as a Senior Scrum Master driving Agile-led digital product development and process framework standardization. 
-He holds an Executive PGDM from the Indian Institute of Management, Indore, a B.E. in Power Electronics from Saurashtra University, and certifications including Disciplined Agile Senior Scrum Master (PMI, 2024), PMI Agile Certified Practitioner (2018), and Project Management Professional (PMI, 2008).
+Shailesh Srivastava is an Agile Project and Program Management professional. This is my first website (exited to share) and is made using claude code. Used words and sentences to make this site. 
+This website is exclusively for my internal learning purpose. 
 
 ## Projects
 
