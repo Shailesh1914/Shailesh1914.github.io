@@ -1,3 +1,9 @@
+# Shailesh Srivastava
+Agile, project, Program management
+
+Experience in engineering, training content development, project/ program management in product development, projects following agile
+Learning AI at basic level
+
 # Projects
 
 ## Document Portal
