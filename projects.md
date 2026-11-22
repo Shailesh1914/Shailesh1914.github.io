@@ -10,9 +10,8 @@ Alongside my work, I completed an AI & MLOps certification and now build Agentic
 
 ## Projects
 
-### Document Portal
-Voltrix VX-200 Support Bot: The bot answers support questions about a fictional variable frequency drive, the Voltrix VX-200, and escalates to a human when it should not answer.
-Ask me access code and other details for test. 
+### Voltrix VX-200 Support Bot
+The bot answers support questions about a fictional variable frequency drive, the Voltrix VX-200, and escalates to a human when it should not answer. Access code available on request.
 Link: https://6navayaze34eglpkmcnmtg62cq0cdupl.lambda-url.ap-south-1.on.aws/
 
 ### Personal Website
