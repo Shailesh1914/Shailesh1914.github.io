@@ -1,23 +1,25 @@
 # Portfolio site, Shailesh Srivastava
 
-Project management, Single page, deployed on Github pages
+Program & Project Management Professional. Personal portfolio, deployed on GitHub Pages.
 
-Source documents: `shaileshsrivastava_Resume.pdf`, `projects.md`
+Source document: `projects.md` (About text and projects list).
 
 ## Who is this for
 
-Self and fellow learners
+Recruiters and organisations I apply to, and fellow learners.
 
 ## Sections
-- **Projects**: should be in tabular form,
-| Title | Description | Link |
-|---|---|---|
-| Document Portal | LLMOPS project on Document Portal | https://github.com/Shailesh1914/document_portal |
-| Personal Website | A personal portfolio site built with Claude Code and deployed on GitHub Pages | https://shailesh1914.github.io |
-| ML Project - Iris | A simple machine learning model with Iris dataset | https://github.com/Shailesh1914/IrisModel_Simple |
 
-- **About**: two paragraphs, from `projects.md`, not invented.
-- **Contact**: email and studio phone number as plain text. No contact form.
+- **About**: two paragraphs, copied verbatim from the About section of `projects.md`.
+  The text is written by me; the agent must not write, rewrite or extend it.
+- **Projects**: a table with columns Title | Description | Link, generated from
+  the Projects list in `projects.md`. Adding a project means editing `projects.md` only.
+- **Contact**: a link to my GitHub profile (https://github.com/Shailesh1914).
+  No email address, no phone number, no contact form.
+
+## Privacy
+
+- No email address, phone number or resume file is published on the site.
 
 ## Voice
 
@@ -28,15 +30,31 @@ Never the words: bespoke, curated, elevate, transform, journey, passion.
 ## Visual constraints
 
 - Single page (no separate routes/pages).
-- Warm and light. Sand, clay and terracotta. Not a dark theme.
-- Must render correctly on a 375px-wide mobile viewport (no horizontal scroll, no overlapping/clipped content).
+- Warm and light: sand, clay and terracotta. Not a dark theme.
+- Must render correctly on a 375px-wide mobile viewport (no horizontal scroll,
+  no overlapping or clipped content).
 
 ## Acceptance criteria
 
-- Every project link resolves with no 404s.
-- Lighthouse accessibility score ≥ 90.
-- Page loads within 2 seconds.
+Automated (run by `npm test`):
+
+1. Every link in the Projects and Contact sections returns a success status (no 404s).
+2. Lighthouse accessibility score ≥ 90 (mobile preset).
+3. Lighthouse performance, mobile preset, first uncached load: Largest Contentful Paint ≤ 2.0 s.
+4. At a 375px viewport, the page has no horizontal scroll (page width ≤ viewport width).
+5. None of the banned words (see Voice) appear in the page text (case-insensitive).
+6. The page contains no email address, no phone number and no link to a .pdf file.
+7. The About text on the page matches the About section of `projects.md` exactly.
+
+Manual (checked by me before each release):
+
+- Colours are warm and light (sand, clay, terracotta); no dark theme.
+- On a 375px screen, nothing overlaps or is clipped.
+
+## Planned for later (not in this version)
+
+- LinkedIn profile link in Contact.
 
 ## Deployment
 
-GitHub Pages, from `main`, at Shailesh1914.github.io.
+GitHub Pages, from `main`, at https://shailesh1914.github.io.
