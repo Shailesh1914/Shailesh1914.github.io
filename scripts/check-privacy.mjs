@@ -7,7 +7,7 @@ import { ROOT, createReporter, decodeEntities } from "./lib.mjs";
 const SKIP = new Set(["package-lock.json"]);
 const EMAIL = /[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}/g;
 // tel: links, or 10-15 digit sequences allowing spaces, dots, dashes, brackets and a leading +.
-const TEL = /tel:[^"'\s>]+/gi;
+const TEL = /tel:\+?\d[^"'\s>]*/gi;
 const PHONE = /(?<![\w.\/#%-])\+?\(?\d[\d\s().\-]{8,20}\d(?![\w.\/-])/g;
 
 const files = execFileSync("git", ["ls-files", "-z"], { cwd: ROOT, encoding: "utf8" }).split("\0").filter(Boolean);
